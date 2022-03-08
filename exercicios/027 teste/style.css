@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.mainlogin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #52707A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logesq {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logesq > h1 {
+    color: #4AA8C7;
+    text-shadow: 2px 5px 40px #000000;
+}
+
+.logdir {
+    width: 50vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logcard {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #4AA8C7;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.356);
+}
+
+.logcard > h1 {
+    color: #2D677A;
+    font-weight: 800;
+    margin: 0;
+    text-shadow: 0px 5px 40px rgba(0, 0, 0, 0.226);
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #9ed6e9;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.35);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #52707A;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color: #5CD2FA;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #2D677A;
+    background-color: darkturquoise;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.342);
+}
+
+.img {
+    width: 50%;
+}
+
+.img:hover {
+    width: 60%;
+}
+
+button:hover {
+    width: 97%;
+}
