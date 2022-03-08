@@ -112,3 +112,8 @@ body {
 button:hover {
     width: 97%;
 }
+
+@media (max-width: 600px) {
+    .logesq {
+        display: none;
+    }
