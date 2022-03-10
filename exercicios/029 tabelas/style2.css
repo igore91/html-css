@@ -5,13 +5,13 @@ body {
 }
 
 table {
-    width: 500px;
+    width: 100%;
     border-collapse: collapse;
+    text-align: center;
 }
 
 td, th {
     border: 1px solid black;
-    text-align: center;
     padding: 5px;
 }
 
@@ -22,4 +22,9 @@ thead, tfoot {
 
 td.num {
     text-align: right;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
 }
