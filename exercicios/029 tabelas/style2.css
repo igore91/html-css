@@ -20,6 +20,10 @@ thead, tfoot {
     color: white;
 }
 
+tbody > tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
 td.num {
     text-align: right;
 }
@@ -27,4 +31,9 @@ td.num {
 h1 {
     text-align: center;
     width: 100%;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bolder;
 }
