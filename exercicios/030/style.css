@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.cabeca {
+    background-color: #1F2447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabeca img {
+    height: 60px;
+    padding:14px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.menu a {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+p.dtq a {
+    color: black;
+    background-color: #f2d472;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+main {
+    display: block;
+    margin: 30.800px;
+    padding: 15px;
+    margin: 0px 200px 0px 200px;
+}
+
+main h1 {
+    font-size: 2.2rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+main > p {
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.calc {
+    background-color: #f8f9fa;
+    border: 0.4px solid rgba(0, 0, 0, 0.075);
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.calc h3 {
+    color: #0077bd;
+    margin-bottom: 15px;
+}
+
+.calc p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.campos1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+.campos2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 30px;
+    border: 0.4px solid rgba(0, 0, 0, 0.164);
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.13);
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#calcular {
+    background-color: #0077bd;
+    border-color: #0077bd;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#calcular:hover {
+    background-color: #005e94
+}
+
+
+#limpar {
+    border: none;
+    background: none;
+    color: #0077bd;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#limpar:hover {
+    text-decoration: underline;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+.conteudo p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.conteudo h2 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #1F2447;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+
+footer img {
+    width: 150px;
+    height: 60px;
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    font-size: 12px;
+}
