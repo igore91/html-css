@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+* {
+    font-size: 70%;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    padding: 0px 285px 0px 267px;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.6em;
+    background: linear-gradient(to top, #3B4877, #2F3A60);
+    border-bottom: 2.8px solid #D99C44;
+    color: white;
+    padding: 5px;
+}
+
+header a {
+    color: white;
+}
+
+.hd1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.hd2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 10px;
+}
+
+#painel-usuario {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.3em;
+    background-color: #C4D2EB;
+    align-items: baseline;
+}
+
+#usuario {
+    margin-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 10px 10px 10px;
+    font-size: 1em;
+}
+
+.nav1 a {
+    font-size: 0.8em;
+}
+
+.nav1 div span {
+    background-color: #e9edf3;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.nav1 div span:hover {
+    background-color: #f3f7fc;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #EFEBDE;
+    font-size: 2.2em;
+    gap: 20px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.nav2 a {
+    padding: 5px;
+}
+
+.nav2 a:hover {
+    background-color: #C6D3EF;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#painel1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.noticias {
+    background-color: #FFFCF5;
+    padding: 10px;
+}
+
+#titulo {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#news {
+    font-size: 13px;
+}
+
+.caixa {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 15px;
+}
+
+#painel2 {
+    width: 30%;
+    background-color: #EFF3FA;
+    border: 4px solid #CFDCEF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.nav3 > a {
+    color: #263a90;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav3 > a:hover {
+    color: #333333;
+}
+
+#foto {
+    height: 125px;
+    width: 100px;
+    border: 0.4px solid black;
+    margin-top: 15px;
+    background-color: #2F3A60;
+}
+
+#bio {
+    background-color: #CFDCEF;
+    padding: 5px;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.img1 {
+    padding: 5px;
+}
+
+.academia {
+    background-color: #CFDCEF;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 4px;
+    padding: 5px;
+}
+
+.dados > p {
+    font-size: 0.8rem;
+}
+
+.dados > h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.dados > h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
