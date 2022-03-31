@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGAA</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://iconape.com/wp-content/png_logo_vector/unb-universidade-de-brasilia-logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
             <a href="">Portal Público</a>
             <a href="">Ajuda?</a>
             <p>Tempo de Sessão: </p>
-            <a href="">SAIR</a>
+            <a href="login.html">SAIR</a>
         </span>
     </header>
     <section id="painel-usuario">
@@ -83,7 +84,20 @@
                 <p>Turmas do Semestre</p>
             </span>
             <div class="aulas-info">
-                
+                <span class="parte1">
+                    <p>Últimas Atualizações</p>
+                    <span>
+                        <a href=""><<</a>
+                        <a href="">Parar</a>
+                        <a href="">>></a>
+                    </span>
+                </span>
+                <span class="parte2">
+                    <p id="diahj"></p>
+                    <p>-</p>
+                    <p class="materia">Matéria</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quibusdam dolor perspiciatis. Possimus repellendus incidunt, quidem tempora aliquid aperiam autem expedita numquam voluptatibus officiis voluptate maiores, molestiae, officia quibusdam facilis.</p>
+                </span>
             </div>
         </span>
 
@@ -132,4 +146,11 @@
         </span>
     </main>
 </body>
+<script>
+    date = new Date();
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+    document.getElementById("diahj").innerHTML = day + "/" + month + "/" + year;
+    </script>
 </html>
